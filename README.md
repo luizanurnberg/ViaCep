@@ -23,20 +23,20 @@ https://viacep.com.br/
 
 # Classes implementadas
 
-<b>Model</b> <br>
+<b>Models</b> <br>
 1. User - Define os campos para o cadastro do usuário, faz a conexão com o MongoDB para busca e registro de dados<br>
 2. Payload - Define os campos que serão posteriormente validados no middleware do token<br>
 
-<b>Controller</b> <br>
+<b>Controllers</b> <br>
 1. userController - é partir desse controller e em conjunto do Model, que o usuário será cadastrado<br>
 2. loginUserController - validará o login do usuário, caso esteja conforme as regras definidas, o controller retornará o token do respectivo usuário<br>
 3. viaCepController - é nesse controller que é feita a requisição ao site da viaCep, aqui também está armazenado o cache<br>
 
-<b>Exception</b> <br>
+<b>Exceptions</b> <br>
 1. 
 2. 
 
-<b>DB</b> <br>
+<b>MongoDB</b> <br>
 1. 
 2. 
 
