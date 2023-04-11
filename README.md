@@ -48,9 +48,8 @@ Esta é a documentação para o uso e ensino do CepProject.
 <b>Middlewares</b> <br>
 -  validToken - este middleware valida o token passado no header da requisição da rota 'searchCep'. Ficando responsável por validar sua veracidade.
 
-# Detalhamento 
-
-<b>Manter usuário </b> <br>
+# Detalhamento do sistema 
+<h2><b>Manter usuário </b> <br> </h2>
 
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
@@ -73,9 +72,8 @@ Fluxo de exceção:
 1. O usuário não inseriu o email ou senha 
 2. O sistema retorna a exception MSG004
 
---------------------------------------
-
-<b>Realizar Login </b> <br>
+-------------------------------------
+<h2><b>Realizar login</b> <br> </h2>
 
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
@@ -102,7 +100,7 @@ Fluxo de exceção:
 1. O usuário não inseriu o email ou senha 
 2. O sistema retorna a exception MSG004       
 -------------------------------------
-<b>Requisitar informações sobre o cep</b> <br>
+<h2><b>Requisitar informações sobre o cep</b> <br> </h2>
 
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
@@ -125,11 +123,11 @@ Fluxo de exceção:
 
 (E2) Exceção ao passo 3 - Dados inesperados 
 1. O usuário digita o cep errado 
-2. O sistema retorna a exception MSG006
+2. O sistema retorna a exception MSG002
 		
 (E3) Exceção ao passo 3 - Campos vazios
 1. O usuário não inseriu o cep
-2. O sistema retorna a exception MSG006  
+2. O sistema retorna a exception MSG002  
 
 Fluxo alternativo:
 (A1) Alternativo ao passo 4 - O usuário pesquisa o mesmo cep dentro do intervalo de 5 minutos 
