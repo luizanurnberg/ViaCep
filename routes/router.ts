@@ -5,6 +5,7 @@ import { viaCep } from '../controllers/api/viaCepController';
 import { validToken } from '../middlewares/validToken';
 
 const router = Router();
+
 /* User's routes */
 router.post('/user', new userController().createUser);
 router.post('/user/login', new loginUserController().logUser);
