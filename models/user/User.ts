@@ -1,7 +1,6 @@
 import { compare } from "bcryptjs";
 import { client } from '../../db/mongoConnection';
 
-
 class User {
     static saveUser(email, password) {
         const user = client.db().collection('users').insertOne({
@@ -9,7 +8,6 @@ class User {
             password: password,
         })
     }
-
 
     static findUser(email: string) {
         try {

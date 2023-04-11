@@ -22,7 +22,6 @@ class userController {
                 User.saveUser(email, passwordHash);
                 response.status(200).json({ msg: 'Usuário inserido com sucesso! Faça o login com o email e senha para ter acesso ao Token de autenticação' });
             }
-
         } catch (error) {
             response.status(400).json(somethingWrongException());
             console.log(error);

@@ -22,8 +22,6 @@ class viaCep {
             client.setEx(`viacep|${typedCep}`, DEFAULT_EXPIRATION, JSON.stringify(data));
             console.log("cache miss");
             return response.status(200).json(data);
-           
-
         }).catch((error) => {
             console.log(error);
             return response.status(400).json(apiRequestException())
