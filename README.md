@@ -51,6 +51,7 @@ Esta é a documentação para o uso e ensino do CepProject.
 # Detalhamento 
 
 <b>Manter usuário </b> <br>
+
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
 2. Possuir internet
@@ -75,6 +76,7 @@ Fluxo de exceção:
 --------------------------------------
 
 <b>Realizar Login </b> <br>
+
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
 2. Possuir internet
@@ -101,6 +103,7 @@ Fluxo de exceção:
 2. O sistema retorna a exception MSG004       
 -------------------------------------
 <b>Requisitar informações sobre o cep</b> <br>
+
 Pré-condições:
 1. Ter realizado corretamente as configurações de ambiente 
 2. Possuir internet
