@@ -31,7 +31,7 @@ Esta é a documentação para o uso e ensino do CepProject.
 <b>Controllers</b> <br>
 -  userController - é partir desse controller e em conjunto do Model, que o usuário será cadastrado<br>
 -  loginUserController - validará o login do usuário, caso esteja conforme as regras definidas, o controller retornará o token do respectivo usuário<br>
--  viaCepController - é nesse controller que é feita a requisição ao site da viaCep, aqui também está armazenado o cache<br>
+-  viaCepController - aqui é feita a requisição ao site da viaCep e também é onde está armazenado o cache<br>
 
 
 <b>MongoDB</b> <br>
