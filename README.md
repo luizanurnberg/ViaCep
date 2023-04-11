@@ -46,7 +46,7 @@ Esta é a documentação para o uso e ensino do CepProject.
         /searchCep - será responsável por realizar a requisição ao ViaCep conforme o controller definido para a api
 
 <b>Middlewares</b> <br>
--  validToken - este middleware valida o token passado no header da requisição da rota 'searchCep'. Fica responsável por validar sua veracidade.
+-  validToken - este middleware valida o token passado no header da requisição da rota 'searchCep'. Ficando responsável por validar sua veracidade.
 
 # Detalhamento 
 
