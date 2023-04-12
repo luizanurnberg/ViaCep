@@ -199,3 +199,25 @@ Fluxo alternativo:
          
          (MSG010)
          'Usuário inserido com sucesso! Faça o login com o email e senha para ter acesso ao Token de autenticação'
+	 
+# Estrutura de dados
+
+Abaixo estão listados os dados esperados em cada rota:
+
+Cadastro de usuário 
+
+	  - email: string
+	  
+	  - password: string
+	  
+Login de usuário
+
+	  - email: string
+	  
+	  - password: string
+	  
+Consulta de Cep
+
+	  - cep: string
+	  
+	  - token: Bearer da requisição
