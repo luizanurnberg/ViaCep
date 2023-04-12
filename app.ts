@@ -1,9 +1,9 @@
 import invalidRouteException from './exceptions/api/404Exception';
 import express, { Request, Response, NextFunction } from 'express';
 import { router } from './routes/router';
+
 const port = 3000;
 const app = express();
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(router);

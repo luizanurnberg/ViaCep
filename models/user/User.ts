@@ -2,7 +2,7 @@ import { compare } from "bcryptjs";
 import { client } from '../../db/mongoConnection';
 
 class User {
-    static saveUser(email, password) {
+    static saveUser(email: string, password: string) {
         const user = client.db().collection('users').insertOne({
             email: email,
             password: password,

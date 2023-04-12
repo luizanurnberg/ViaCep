@@ -8,7 +8,7 @@ import * as dotenv from 'dotenv';
 function validToken(request: Request, response: Response, next: NextFunction) {
     const authToken = request.headers.authorization;
     if (!authToken) {
-        return response.status(401).json(permissionException()).end();
+        return response.status(401).json(permissionException());
     } else {
         const [, token] = authToken.split(" ");
         try {
@@ -17,7 +17,7 @@ function validToken(request: Request, response: Response, next: NextFunction) {
             request.email = sub;
             return next();
         } catch (error) {
-            return response.status(401).json(apiRequestException()).end();
+            return response.status(401).json(apiRequestException());
         }
 
     }

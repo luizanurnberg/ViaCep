@@ -10,11 +10,8 @@ const router = Router();
 router.post('/user', new userController().createUser);
 router.post('/user/login', new loginUserController().logUser);
 
-/* Middleware for token */
-router.use(validToken);
-
 /* ViaCep route */
-router.post('/searchCep', new viaCep().searchCep)
+router.post('/searchCep', validToken, new viaCep().searchCep);
 
 export {
     router
